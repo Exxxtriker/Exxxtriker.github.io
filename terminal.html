@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171813">
+  <meta name="description" content="Leonardo Carvalho, Exxxtriker. Portfólio de desenvolvimento full stack em um terminal do Mojave.">
+  <title>Leonardo Carvalho | Mojave Terminal</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="crt.css">
+  <link rel="stylesheet" href="games.css">
+  <link rel="stylesheet" href="vitomatic.css">
+  <script src="crt.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="games.js" defer></script>
+  <script src="vitomatic.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div class="machine">
+    <header class="hardware">
+      <a class="brand" href="#perfil" aria-label="Leonardo Carvalho — início"><span class="brand-mark">LC<span>®</span></span><span>PERSONAL TERMINAL<br><small>MOJAVE EDITION / MODEL 38</small></span></a>
+      <div class="hardware-controls"><span class="power"><i></i> SYSTEM ONLINE</span><button id="effects" class="utility" aria-pressed="true" title="Ativar ou desativar efeito de tela">CRT <span>ON</span></button><button id="palette" class="utility" title="Alternar entre âmbar e verde">COR <span>●</span></button></div>
+    </header>
+
+    <div class="screen" id="screen">
+      <div class="screen-top"><span><i class="square"></i> MOJAVE PERSONAL TERMINAL</span><span>PORTFÓLIO / EXXXTRIKER <span class="desktop-only">/ V.1.0</span></span></div>
+      <nav class="tabs" aria-label="Seções do portfólio">
+        <a href="#perfil" class="tab active" aria-current="page"><span>01</span> PERFIL</a>
+        <a href="#projetos" class="tab"><span>02</span> PROJETOS</a>
+        <a href="#habilidades" class="tab"><span>03</span> HABILIDADES</a>
+        <a href="#contato" class="tab"><span>04</span> CONTATO</a>
+      </nav>
+
+      <main id="main" tabindex="-1">
+        <section id="perfil" class="panel active" aria-labelledby="profile-title">
+          <div class="hero">
+            <div class="hero-copy">
+              <p class="eyebrow"><span class="cross">✦</span> REGISTRO PESSOAL Nº 038</p>
+              <p class="role">DESENVOLVEDOR FULL STACK</p>
+              <h1 id="profile-title">LEONARDO<br><span>CARVALHO<span class="cursor">_</span></span></h1>
+              <p class="alias">TAMBÉM CONHECIDO COMO <strong>EXXXTRIKER</strong></p>
+              <div class="intro"><span class="quote-mark">&gt;</span><p>Interfaces, APIs e bancos de dados.<br>Meu foco é desenvolvimento full stack.<br>Por aqui, você encontra meu código e meus projetos.</p></div>
+              <div class="hero-actions"><a class="button primary" href="#projetos">EXPLORAR PROJETOS <span>↗</span></a><a class="text-link" href="https://github.com/Exxxtriker" target="_blank" rel="noopener noreferrer">GITHUB <span>↗</span></a></div>
+              <div class="coordinates"><span>ORIGEM: TERRA</span><span>DESTINO: PRÓXIMO COMMIT</span></div>
+            </div>
+            <figure class="mojave-art" aria-label="Ilustração original do deserto do Mojave com uma cidade ao longe e um viajante">
+              <div class="art-label"><span>FIG. 01 / MOJAVE WASTELAND</span><span>[ LIVE FEED ]</span></div>
+              <svg viewBox="0 0 580 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sceneTitle">
+                <title id="sceneTitle">Um viajante observa a cidade além do deserto</title>
+                <defs>
+                  <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="currentColor" opacity=".2"/></pattern>
+                  <pattern id="sunlines" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 1H6" stroke="currentColor" stroke-width="1"/></pattern>
+                  <clipPath id="sunclip"><circle cx="348" cy="157" r="108"/></clipPath>
+                  <linearGradient id="fade" x2="0" y2="1"><stop stop-color="currentColor" stop-opacity=".11"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient>
+                </defs>
+                <path d="M25 43H555M25 420H555M42 27V438M538 27V438" stroke="currentColor" opacity=".15"/>
+                <path d="M25 70V43H52M528 43H555V70M25 393V420H52M528 420H555V393" stroke="currentColor" fill="none"/>
+                <circle cx="348" cy="157" r="108" stroke="currentColor" fill="url(#fade)" opacity=".65"/>
+                <rect x="235" y="46" width="225" height="225" fill="url(#sunlines)" clip-path="url(#sunclip)" opacity=".45"/>
+                <g fill="none" stroke="currentColor" opacity=".3"><path d="M55 103H177M83 118H212M426 76H504M458 91H523M66 168H116"/><path d="M483 133l5-5 5 5m-27 12 5-5 5 5"/></g>
+                <path d="M28 282L83 229 112 245 163 197 225 261 260 232 302 273 363 218 415 259 457 212 550 283V420H28Z" fill="currentColor" opacity=".12"/>
+                <g stroke="currentColor" fill="none" opacity=".5"><path d="M30 281L83 229 112 245 163 197 225 261 260 232 302 273 363 218 415 259 457 212 550 283"/><path d="M138 225l25-28 14 42m247 20 33-47 9 43"/></g>
+                <g stroke="currentColor" fill="var(--screen)" stroke-width="1.4" opacity=".85">
+                  <path d="M270 304V263H284V249H296V304M304 304V247H322V304M330 304V275H346V257H365V304M372 304V258H389V248H405V304M412 304V272H432V304M440 304V245H453V232H468V304M476 304V267H497V304"/>
+                  <path d="M350 257V214H359V198H364V214H373V257M352 214H371M357 198V176M346 228H378M346 233H378"/>
+                  <path d="M309 259H317M309 267H317M309 275H317M378 269H385M395 261H401M445 256H451M479 277H492M479 285H492" opacity=".6"/>
+                </g>
+                <path d="M25 320Q142 282 248 316T555 302V420H25Z" fill="var(--screen)" stroke="currentColor" stroke-opacity=".6"/>
+                <path d="M287 420L363 316H374L342 420" fill="currentColor" opacity=".17"/>
+                <path d="M316 412L322 399M330 383L338 369M344 357L352 344M358 333L364 323" stroke="currentColor" opacity=".6"/>
+                <path d="M26 370Q109 336 207 367T411 369T554 356" stroke="currentColor" fill="none" opacity=".28"/>
+                <g fill="currentColor" opacity=".8"><path d="M453 372v-43q0-6 4-6t4 6v14h8v-22q0-5 4-5t4 5v24q0 7-9 7h-7v20zm-1-18h-9q-8 0-8-8v-13q0-5 4-5t4 5v13h9z"/><path d="M80 347v-28h5v10h5v-16h5v18q0 4-5 4h-5v12zm0-13H73q-5 0-5-5v-10h5v10h7z" opacity=".65"/></g>
+                <g fill="var(--screen)" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                  <path d="M158 289L147 305 137 360 152 362 155 398 168 398 175 361 183 398 196 398 190 353 202 355 188 302 177 289Z"/>
+                  <path d="M157 264Q170 249 184 263L186 283 175 294 160 283Z"/>
+                  <path d="M145 263Q171 253 194 263L194 269H145ZM156 260L159 245 178 244 185 260"/>
+                  <path d="M147 308L134 331 136 351 144 352M188 310L203 330 204 351 198 353M159 301L174 315 186 301M174 315V349M152 351H190M155 360L170 358M178 358L190 360"/>
+                  <path d="M148 396L143 404H169V397M183 397V404H205L195 396"/>
+                  <path d="M170 271H183M157 273L165 278"/>
+                  <path d="M194 306L213 286 216 290 199 317 214 363 208 365 191 322"/>
+                </g>
+                <g stroke="currentColor" opacity=".45"><path d="M42 398l42-9m-16 15 23-4m133-26 24-5m180 25 34 6m-59-16 20 4"/><path d="M290 60v10m-5-5h10M497 201v10m-5-5h10"/></g>
+                <rect x="26" y="44" width="528" height="375" fill="url(#dots)" opacity=".3"/>
+                <text x="389" y="405" fill="currentColor" font-family="monospace" font-size="9" letter-spacing="2">NEW VEGAS / 2281</text>
+              </svg>
+              <figcaption><span><i class="signal"></i> SINAL ESTÁVEL</span><span>35° N / 115° W</span></figcaption>
+            </figure>
+          </div>
+          <div class="profile-strip"><span class="strip-label">ÁREAS DE INTERESSE</span><span><b>01</b> INTERFACES</span><span><b>02</b> APIs & INTEGRAÇÕES</span><span><b>03</b> BANCO DE DADOS</span><span class="strip-arrow">↗</span></div>
+        </section>
+
+        <section id="projetos" class="panel" hidden aria-labelledby="projects-title">
+          <div class="section-head"><div><p class="eyebrow">ARQUIVOS / 02</p><h2 id="projects-title">DIÁRIO DE <em>PROJETOS</em></h2></div><span class="outline-label">02 REPOSITÓRIOS</span></div>
+          <p class="section-description">O que já saiu do papel. Os projetos atuais são para Discord; a próxima etapa é ampliar a vitrine com aplicações web.</p>
+          <div class="project-list">
+            <article class="project"><div class="project-index">01<span>ARQUIVO</span></div><div class="project-main"><span class="project-type">JAVASCRIPT / NODE.JS / MONGODB</span><h3>Gideon the Bard</h3><p>Áudio e sistemas de RPG: música, soundboard, cartas, inventário e economia por servidor.</p><div class="tags"><span>Integrações</span><span>Persistência</span><span>Discord.js</span></div></div><button class="project-open" data-project="gideon" aria-label="Ver detalhes do Gideon the Bard">ABRIR ARQUIVO <span>↗</span></button></article>
+            <article class="project"><div class="project-index">02<span>ARQUIVO</span></div><div class="project-main"><span class="project-type">JAVASCRIPT / EXPRESS / SQLITE</span><h3>Haruka Bot</h3><p>Ferramentas de moderação, minigames e integração com Minecraft para comunidades no Discord.</p><div class="tags"><span>Comandos</span><span>Comunidades</span><span>Discord.js</span></div></div><button class="project-open" data-project="haruka" aria-label="Ver detalhes do Haruka Bot">ABRIR ARQUIVO <span>↗</span></button></article>
+          </div>
+          <div class="next-mission"><span class="mission-symbol">◇</span><div><span class="eyebrow">PRÓXIMA ETAPA</span><h3>Mais web. Mais projetos.</h3><p>Este portfólio é o começo dessa nova vitrine.</p></div><a class="text-link" href="https://github.com/Exxxtriker?tab=repositories" target="_blank" rel="noopener noreferrer">VER REPOSITÓRIOS ↗</a></div>
+        </section>
+
+        <section id="habilidades" class="panel" hidden aria-labelledby="skills-title">
+          <div class="vit-header"><span class="eyebrow">VAULT-TEC / REGISTRO DO HABITANTE</span><span class="vit-file">FICHA 038—LC</span></div>
+          <div class="vit-tabs" role="tablist" aria-label="Registro do desenvolvedor">
+            <button id="vit-about-tab" role="tab" aria-selected="true" aria-controls="vit-about" tabindex="0">01 / SOBRE O DEV</button>
+            <button id="vit-skills-tab" role="tab" aria-selected="false" aria-controls="vit-skills" tabindex="-1">02 / HABILIDADES</button>
+          </div>
+          <div id="vit-about" role="tabpanel" aria-labelledby="vit-about-tab">
+            <div class="dev-layout">
+              <figure class="dev-portrait"><div class="dev-photo-label"><span>IDENTIFICAÇÃO VISUAL</span><span>● ONLINE</span></div><img src="assets/dev-ascii.svg" width="732" height="786" alt="Retrato de Leonardo em ASCII, convertido de sua foto do GitHub: de boné, barba e camiseta escura."><figcaption>EXXXTRIKER / RETRATO ASCII<br><span>FONTE: FOTO DO GITHUB · 120 × 86 CARACTERES</span></figcaption></figure>
+              <div class="dev-copy"><p class="eyebrow">UM POUCO SOBRE MIM</p><h2>LEONARDO<br><em>CARVALHO<span class="cursor" aria-hidden="true">_</span></em></h2><p class="dev-role">DESENVOLVEDOR FULL STACK EM FORMAÇÃO</p>
+                <p>Depois de terminar a escola, pensei em seguir a carreira da minha família: a advocacia. Cursei dois semestres de Direito, mas acabei encontrando outro caminho.</p>
+                <p>Fiz um curso de manutenção e redes e foi ali que tive certeza de que queria trabalhar com tecnologia. Me inscrevi em Ciência da Computação para continuar nessa área e aprofundar meus conhecimentos.</p>
+                <p>Hoje, quero desenvolver minhas habilidades como dev e construir projetos próprios. Para o futuro, tenho dois caminhos em mente: atuar como perito na área de tecnologia ou empreender.</p>
+                <div class="dev-next"><span>PRÓXIMOS CAMINHOS</span><strong>PERÍCIA EM TECNOLOGIA <i>/</i> EMPREENDEDORISMO</strong></div>
+              </div>
+            </div>
+            <div class="dev-journey" aria-label="Minha trajetória">
+              <article><span>01 / PRIMEIRO CAMINHO</span><h3>Direito</h3><p>Dois semestres seguindo a tradição da família.</p></article>
+              <article><span>02 / A DESCOBERTA</span><h3>Manutenção &amp; redes</h3><p>O curso que confirmou minha escolha pela tecnologia.</p></article>
+              <article><span>03 / NOVA DIREÇÃO</span><h3>Ciência da Computação</h3><p>Inscrição no curso para dar o próximo passo nessa área.</p></article>
+            </div>
+          </div>
+          <div id="vit-skills" role="tabpanel" aria-labelledby="vit-skills-tab" hidden>
+          <div class="section-head"><div><p class="eyebrow">INVENTÁRIO / 03</p><h2 id="skills-title">MINHA <em>CAIXA DE FERRAMENTAS</em></h2></div><span class="outline-label">FULL STACK</span></div>
+          <p class="section-description">Tecnologias com as quais trabalho e conhecimentos que venho desenvolvendo.</p>
+          <div class="skills-grid">
+            <article class="skill-group"><span class="skill-icon">&lt;/&gt;</span><span class="eyebrow">01 / INTERFACE</span><h3>Front-end</h3><p>Estrutura, estilo e interação no navegador.</p><ul><li>HTML <span>ESTRUTURA</span></li><li>CSS <span>ESTILO</span></li><li>JavaScript <span>INTERAÇÃO</span></li><li>TypeScript <span>TIPAGEM</span></li></ul></article>
+            <article class="skill-group"><span class="skill-icon">{ }</span><span class="eyebrow">02 / LÓGICA</span><h3>Back-end</h3><p>Serviços, comandos e integrações.</p><ul><li>Node.js <span>RUNTIME</span></li><li>Express <span>WEB</span></li><li>Discord.js <span>INTEGRAÇÕES</span></li><li>Mongoose <span>MODELOS</span></li></ul></article>
+            <article class="skill-group"><span class="skill-icon">[≡]</span><span class="eyebrow">03 / PERSISTÊNCIA</span><h3>Dados</h3><p>Organização e armazenamento de informações.</p><ul><li>MongoDB <span>DOCUMENTOS</span></li><li>SQLite <span>RELACIONAL</span></li><li>SQL <span>CONSULTAS</span></li></ul></article>
+          </div>
+          <div class="additional"><span class="eyebrow">OUTROS CONHECIMENTOS</span><p>Python <span>/</span> C# <span>/</span> C</p><span class="additional-note">Inventário em atualização.</span></div>
+          </div>
+        </section>
+
+        <section id="contato" class="panel" hidden aria-labelledby="contact-title">
+          <div class="section-head"><div><p class="eyebrow">COMUNICAÇÕES / 04</p><h2 id="contact-title">VAMOS <em>CONVERSAR?</em></h2></div><span class="outline-label">CANAL ABERTO</span></div>
+          <div class="contact-layout"><div class="contact-copy"><div class="contact-symbol" aria-hidden="true">((<span>✦</span>))</div><p>Uma ideia de projeto, uma troca sobre código<br>ou só um olá. Você me encontra por aqui.</p><p class="muted">LEONARDO CARVALHO<br>@EXXXTRIKER</p></div><div class="contact-links">
+            <a href="https://github.com/Exxxtriker" target="_blank" rel="noopener noreferrer"><span><small>01 / CÓDIGO</small>GitHub</span><span>↗</span></a>
+            <a href="https://www.instagram.com/exxtriker/" target="_blank" rel="noopener noreferrer"><span><small>02 / CONVERSA</small>Instagram</span><span>↗</span></a>
+            <a href="https://www.youtube.com/channel/UC0VQrN4Y8Fo4_-fV_HLJaQw" target="_blank" rel="noopener noreferrer"><span><small>03 / CONTEÚDO</small>YouTube</span><span>↗</span></a>
+            <a href="https://www.twitch.tv/exxxtriker_" target="_blank" rel="noopener noreferrer"><span><small>04 / AO VIVO</small>Twitch</span><span>↗</span></a>
+          </div></div>
+        </section>
+      </main>
+
+      <aside class="console" aria-label="Terminal interativo">
+        <div class="console-label"><span class="square"></span> TERMINAL <span class="console-hint">DIGITE “HELP” PARA COMEÇAR</span><button id="console-toggle" aria-expanded="false" aria-controls="console-output" title="Expandir terminal">+</button></div>
+        <div id="console-output" class="console-output" role="log" aria-live="polite" hidden></div>
+        <form id="terminal-form" autocomplete="off"><label for="command">visitante@mojave:~$</label><input id="command" name="command" aria-label="Comando do terminal" placeholder="help" spellcheck="false" autocapitalize="off"><button type="submit" aria-label="Executar comando">↵</button></form>
+      </aside>
+      <footer class="screen-footer"><span><i class="signal"></i> TODOS OS SISTEMAS OPERACIONAIS</span><span>LC / <span id="year">2026</span><span class="desktop-only"> · EXXXTRIKER</span></span></footer>
+    </div>
+    <div class="hardware-bottom"><span>MOJAVE EDITION // LEONARDO CARVALHO</span><div class="vents" aria-hidden="true">▰ ▰ ▰ ▰ ▰ ▰ ▰ ▰</div><span>38—LC</span></div>
+  </div>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span>ARQUIVO DE PROJETO</span><button id="close-dialog" aria-label="Fechar detalhes">[ ESC / FECHAR ]</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
