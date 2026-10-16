@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 52" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">Esqueleto sorridente de jaqueta azul, inspirado em Sans</title>
+  <!-- Original pixel drawing for the portfolio. All edges follow the pixel grid. -->
+  <ellipse cx="20" cy="50" rx="17" ry="2" fill="#000" opacity=".35"/>
+  <path fill="#11121c" d="M13 1h14v2h4v3h2v11h-2v3h-4v3h5v2h3v4h2v10h-5v5h-3v3h5v4H22v-3h-4v3H6v-4h5v-3H8v-5H3V29h2v-4h3v-2h5v-3H9v-3H7V6h2V3h4z"/>
+  <path fill="#f4f1e8" d="M13 3h14v2h3v3h1v8h-2v3h-4v2H15v-2h-4v-3H9V8h2V5h2z"/>
+  <path fill="#d1d4d6" d="M9 11h2v5h2v2h4v2h8v1H15v-2h-4v-3H9zm18-6h3v3h1v8h-2V8h-2z"/>
+  <path fill="#161722" d="M12 9h5v5h-5zm11 0h5v5h-5zm-4 5h2v2h-2zM12 16h2v2h12v-2h2v3h-3v1H15v-1h-3z"/>
+  <path fill="#f4f1e8" d="M15 17h2v2h-2zm4 0h2v2h-2zm4 0h2v2h-2z"/>
+  <path fill="#248bc7" d="M9 24h5v-2h12v2h5v3h3v11h-5v-2H11v2H6V27h3z"/>
+  <path fill="#126191" d="M6 29h3v6h4v3H6zm25 0h3v9h-7v-3h4zM12 32h5v5h-5zm11 0h5v5h-5z"/>
+  <path fill="#60bbe2" d="M9 25h4v2h-2v5H9zm18 0h4v7h-2v-5h-2z"/>
+  <path fill="#e8e5db" d="M14 22h4v3h4v-3h4v5h-3v8h-6v-8h-3z"/>
+  <path fill="#fffaf0" d="M13 22h3v3h2v3h-3v-2h-2zm11 0h3v4h-2v2h-3v-3h2z"/>
+  <path fill="#242633" d="M10 37h20v6h-8v-3h-4v3h-8z"/>
+  <path fill="#f3f0e6" d="M12 38h2v5h-2zm14 0h2v5h-2zM13 43h4v4h-4zm10 0h4v4h-4z"/>
+  <path fill="#c6cbd0" d="M13 45h4v2h-4zm10 0h4v2h-4z"/>
+  <path fill="#d77d9e" d="M9 47h9v3H7v-2h2zm13 0h9v1h2v2H22z"/>
+  <path fill="#f1adc4" d="M10 47h6v1h-6zm14 0h6v1h-6z"/>
+</svg>
