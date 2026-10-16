@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171710">
+  <meta name="description" content="Explore uma sala 3D inspirada no Mojave e conheça o portfólio full stack de Leonardo Carvalho.">
+  <title>Leonardo Carvalho | Um terminal no Mojave</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="room.css">
+  <link rel="stylesheet" href="crt.css">
+  <script src="crt.js" defer></script>
+  <script src="room.bundle.js" defer></script>
+</head>
+<body>
+  <main id="room" aria-label="Sala 3D interativa inspirada no Mojave">
+    <div id="scene" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <header class="room-header">
+      <a href="#" id="home" class="room-brand" aria-label="Voltar à sala inicial"><span class="monogram">LC<span>38</span></span><span>LEONARDO CARVALHO<small>DESENVOLVEDOR FULL STACK</small></span></a>
+      <div class="room-options"><button id="sound" aria-pressed="false" aria-label="Ativar som ambiente">SOM <span>OFF</span></button><button id="static-effect" aria-pressed="true" aria-label="Ativar ou desativar estática da tela">CRT <span>ON</span></button><button id="quality" aria-pressed="true" aria-label="Alternar visual pixelado">PIXEL <span>ON</span></button><button id="help-toggle" aria-expanded="false" aria-controls="room-help" aria-label="Como explorar a sala">?</button></div>
+    </header>
+    <div id="hotspots" class="hotspots" hidden>
+      <button class="hotspot" data-object="terminal" data-section="perfil"><span class="point-number">01</span><span class="point-text">COMPUTADOR<small>ABRIR TERMINAL</small></span><i></i></button>
+      <button class="hotspot" data-object="files" data-section="projetos"><span class="point-number">02</span><span class="point-text">ARQUIVOS<small>MEUS PROJETOS</small></span><i></i></button>
+      <button class="hotspot" data-object="vigor" data-section="habilidades"><span class="point-number">03</span><span class="point-text">VIT-O-MATIC<small>SOBRE O DEV / HABILIDADES</small></span><i></i></button>
+      <button class="hotspot" data-object="radio" data-section="contato"><span class="point-number">04</span><span class="point-text">RÁDIO<small>ENTRE EM CONTATO</small></span><i></i></button>
+    </div>
+    <div id="boot" class="boot-screen" role="status" aria-label="Inicializando sistema Vault-Tec">
+      <div class="boot-terminal"><div class="vault-symbol" aria-hidden="true"><span>⚙</span> VAULT-TEC</div><p class="boot-subtitle">PERSONAL ACCESS SYSTEM / GOODSPRINGS NODE</p><pre id="boot-lines" aria-hidden="true"></pre><span class="boot-cursor" aria-hidden="true">█</span><p class="boot-foot">VAULT 21 · MOJAVE NETWORK · 2281</p></div>
+    </div>
+    <aside id="room-help" class="room-help" hidden><button id="close-help" aria-label="Fechar instruções">×</button><p>COMO EXPLORAR</p><ul><li>Clique nos pontos ou nos objetos iluminados.</li><li>Arraste para olhar a sala de outro ângulo.</li><li>Use ← e → para girar a câmera.</li><li>ESC volta do terminal para a sala.</li></ul><button id="direct-terminal">Prefiro abrir o portfólio direto ↗</button></aside>
+    <div class="room-bottom"><div class="room-location"><span class="status-dot"></span> GOODSPRINGS <span class="separator">/</span> MOJAVE, 2281</div><p id="room-hint">CARREGANDO A SALA…</p><div class="camera-controls"><button id="rotate-left" aria-label="Girar câmera à esquerda">←</button><button id="reset-camera" aria-label="Centralizar câmera">◎</button><button id="rotate-right" aria-label="Girar câmera à direita">→</button></div></div>
+    <div id="loading" class="loading" hidden><span>PREPARANDO O MOJAVE</span><div><i></i></div></div>
+    <div id="webgl-error" class="webgl-error" hidden><h2>O terminal continua funcionando.</h2><p>Seu navegador não conseguiu abrir a sala 3D.</p><a href="terminal.html">ABRIR PORTFÓLIO ↗</a></div>
+    <div id="transition" class="transition" aria-hidden="true"><span>ESTABELECENDO CONEXÃO…</span></div>
+  </main>
+  <section id="terminal-view" class="terminal-view" role="dialog" aria-modal="true" hidden aria-label="Computador do Mojave">
+    <div class="terminal-toolbar"><button id="back-to-room">← VOLTAR À SALA <span>[ ESC ]</span></button><span>MOJAVE PERSONAL TERMINAL <i></i></span><button id="fullscreen-terminal" aria-pressed="false" aria-label="Expandir terminal">EXPANDIR ↗</button></div>
+    <iframe id="portfolio-frame" title="Portfólio full stack de Leonardo Carvalho" src="about:blank"></iframe>
+  </section>
+  <noscript><div class="no-script">Ative JavaScript para explorar a sala ou <a href="terminal.html">abra a versão de leitura do portfólio</a>.</div></noscript>
+</body>
+</html>
