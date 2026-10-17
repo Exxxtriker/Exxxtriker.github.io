@@ -1,22 +1,15 @@
-# Leonardo Carvalho — Portfólio Mojave
+# Portfólio — Leonardo Carvalho
 
-Portfólio full stack em uma sala 3D inspirada em Fallout: New Vegas.
+Meu portfólio em uma sala 3D inspirada em Fallout: New Vegas. A ideia é apresentar meus projetos e um pouco da minha história em um lugar que tenha a minha cara.
 
-- Computador: terminal interativo com minijogos e easter eggs.
-- Arquivos: projetos e repositórios.
-- Vit-o-matic: trajetória pessoal, retrato ASCII e habilidades.
-- Rádio: contato.
+**[Entrar na sala](https://exxxtriker.github.io/portifolio/)**
 
-## Publicação no GitHub Pages
+O computador abre um terminal com alguns jogos e easter eggs. Os arquivos guardam os projetos, o Vit-o-matic conta minha trajetória e o rádio reúne os contatos. O Dogmeat também está por lá — dá para fazer carinho nele.
 
-Repositório: `Exxxtriker/Exxxtriker.github.io`.
+Feito com HTML, CSS, JavaScript e Three.js, com visual pixelado e efeitos de tela antiga.
 
-Os arquivos deste diretório devem ficar na raiz do repositório, incluindo `index.html`, `.nojekyll` e a pasta `assets`.
+## Sobre o repositório
 
-Em **Settings → Pages**, selecione **Deploy from a branch**, branch **main** e pasta **/(root)**. Salve.
+A versão publicada fica em `portifolio/`, com o JavaScript já compilado. O GitHub Pages usa a branch `main`; a página da raiz redireciona para a sala.
 
-Endereço esperado após a publicação: https://exxxtriker.github.io/
-
-Este pacote contém o site estático já compilado. Não é necessário rodar npm para publicá-lo.
-
-Créditos de imagens, referências e bibliotecas em [CREDITS.md](CREDITS.md).
+[Créditos e referências](CREDITS.md).
