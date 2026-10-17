@@ -25,3 +25,7 @@ Three.js — licença MIT. Esbuild — licença MIT. Tipografia Barlow Condensed
 O pastor-alemão é o modelo [German Shepherd 3D Dog Model (Free)](https://retrostylegames.itch.io/german-shepherd-3d-dog-model-free), da **RetroStyle Games**, disponibilizado pelo autor para uso gratuito em projetos pessoais e comerciais.
 
 O FBX foi convertido para GLB, com as animações de respiração e brincadeira. A textura foi reduzida para 1024 pixels, preservando a transparência. Dogmeat é uma referência a Fallout; este não é o modelo oficial do jogo.
+
+## Latido
+
+Trecho do clipe 1 do [Dogmeat Soundboard: Fallout 3](https://www.101soundboards.com/boards/11285-dogmeat-soundboard-fallout-3), que identifica os sons como sendo do Dogmeat de Fallout 3. [Página do clipe](https://www.101soundboards.com/sounds/68820-1). O trecho foi cortado e recebeu um ajuste de volume e fades nas pontas. Os direitos do áudio pertencem aos respectivos titulares de Fallout.
