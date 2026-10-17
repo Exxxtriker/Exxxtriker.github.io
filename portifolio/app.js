@@ -67,6 +67,14 @@ paletteButton.addEventListener('click', () => setPalette(!document.body.classLis
 document.querySelector('#year').textContent = String(new Date().getFullYear());
 
 const projects = {
+  advocacia: {
+    name: 'Ana Paula Rodrigues Advocacia',
+    description: 'Site institucional que desenvolvi para a advogada Ana Paula Rodrigues Carvalho, reunindo informações do escritório e caminhos diretos para entrar em contato.',
+    features: ['Apresentação da advogada e das áreas de atuação do escritório.', 'Blog jurídico com páginas de artigos.', 'Links para atendimento pelo WhatsApp e localização no Google Maps.', 'Desenvolvimento com HTML, CSS e JavaScript, com Cloudflare na infraestrutura.'],
+    tech: 'HTML / CSS / JavaScript / Cloudflare',
+    url: 'https://anapaularodriguesadvocacia.com.br/',
+    linkLabel: 'VISITAR SITE ↗'
+  },
   gideon: {
     name: 'Gideon the Bard',
     description: 'Bot para acompanhar mesas de RPG no Discord, com música, soundboard e sistemas de jogo.',
@@ -91,7 +99,7 @@ document.querySelectorAll('[data-project]').forEach(button => button.addEventLis
   const list = document.createElement('ul');
   p.features.forEach(feature => { const li = document.createElement('li'); li.textContent = feature; list.append(li); });
   const tech = document.createElement('p'); tech.className = 'eyebrow'; tech.textContent = p.tech;
-  const link = document.createElement('a'); link.className = 'button primary'; link.href = p.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'VER CÓDIGO NO GITHUB ↗';
+  const link = document.createElement('a'); link.className = 'button primary'; link.href = p.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = p.linkLabel || 'VER CÓDIGO NO GITHUB ↗';
   container.append(heading, description, list, tech, link);
   dialog.showModal();
 }));
